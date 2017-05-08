@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+body {
+    background-color: #F5F5F5;
+    color: #555;
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+}
+.note {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.element {   
+  background-color: #f1c40f;
+  color: white;
+  width: 500px; 
+  height: 500px;
+  margin: 30px auto;
+  text-align: justify;
+   shape-inside: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );
+  shape-padding: 10px;
+  transition: all 3s ease; 
+  -webkit-clip-path: polygon(250px 0, 350px 170px, 500px 180px, 380px 320px, 450px 500px, 250px 420px, 50px 500px, 120px 320px, 0px 180px, 150px 170px );  
+
+} 
+.element:hover{ 
+   shape-inside: polygon(0 0, 500px 0, 500px 500px, 0 500px, 0 400px, 0 350px, 0 300px, 0 200px, 0 150px, 0 50px);
+  -webkit-clip-path: polygon(0 0, 500px 0, 500px 500px, 0 500px, 0 400px, 0 350px, 0 300px, 0 200px, 0 150px, 0 50px);
+} 
+
+
+
+div {
+
+	height: 50px;
+	width: 235px;
+	border: 3px solid lightblue;
+	border-radius: 5px;
+	background-color: #FFE4B5;
+	float:left;	
+}
+
+	
+}
+
+#one {
+	background-color: #FFB6C1;
+	
+}
+
+#two {
+	height:250px;
+	width: 100px;
+	background-color: #48D1CC;
+	padding:40px;
+	margin-right: 570px;
+	border: 3px solid lightpink;
+	float:right;	
+}
+
+#three {
+	height:50px;
+	width: 50px;
+	background-color: #1E90FF;
+	padding:50px;
+	margin-right: 570px;
+	border: 3px solid pink;
+	float:right;	
+}
+
+#four {
+	height:200px;
+	width: 100px;
+	background-color: #FF69B4;
+	padding:40px;
+	margin-right: 580px;
+	border: 3px solid pink;
+	float:right;	
+}
+
+#five {
+	height:20px;
+	width: 20px;
+	background-color: #B0E0E6;
+	padding:40px;
+	margin-right: 580px;
+	border: 10px solid pink;
+	float:right;	
+}
+
+
+#inner {
+	height: 75px;
+	width: 75px;
+	background-color: #8B0000;
+
+}
+
+#outer {
+	height: 500px;
+	width: 200px;
+	background-color: #D8BFD8;
+	position: absolute;
+	margin-left:1000px;
+	border: 0px;
+}
+#inner{
+    position:fixed;
+    margin-left:500px;
+    }
