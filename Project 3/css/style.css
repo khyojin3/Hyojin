@@ -1,0 +1,132 @@
+/* Global Styles */
+html { box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: inherit; }
+
+body {
+	margin: auto;
+	padding: 0;
+	font-family: "Quick sand", Futura, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.4em;
+	color: black;
+}
+
+img{
+	max-width: 100%;
+}
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+ 	font-family: "QuickSand", Futura, serif;
+ 	font-weight: normal;
+
+}
+
+a{
+	color: rgb(188, 150, 255);
+	transition: all .5s ease; 
+	-webkit-transition: all .5s ease;
+}
+
+a:hover{
+	color: rgb(109, 104, 112);
+}
+/* Header + Navigation */
+
+header{
+	margin: 0;
+	padding: 20px;
+	width: 100;
+	background: white;
+}
+
+header h1{
+	float: left;
+	font-size: 26px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	list-style: none;
+
+}
+
+header nav ul li{
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 1em;
+}
+
+header nav ul li a {
+	text-decoration: none;
+
+}
+
+header nav ul li a.active{
+	color: rgb(255, 139, 45);
+}
+/* Layout */
+
+.container {
+	max-width: 980px;
+	margin: 50px auto;
+	position: relative;
+	text-align: center;
+	
+}
+ul.thumbnails{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ul.thumbnails li {
+
+	width: 450px;
+	margin: 15px;
+	text-align: center;
+	padding: 20px;
+}
+
+ul.thumbnails li img{
+	max-width: 100%
+}
+
+ul.thumbnails li a img{
+	transition: all .5s ease; 
+	-webkit-transition: all .5s ease;
+}
+
+ul.thumbnails li a:hover img {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%) blur(5px);
+
+/* Content */
+
+.content{
+	max-width: 750px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.content h2{
+	margin: 20px 0px 10px;
+	text-align: center;
+}
+
+.content p {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.content2 p {
+	margin-bottom: 1em;
+	text-align: center;
+}
+/* Footer */
+
+/* MediaQueries */
